@@ -1,0 +1,20 @@
+#include <stdi	o.h>
+#include <conio.h>
+#define PI 3.14
+#define P printf
+#define HOLD getch
+
+main()
+{
+	const int a = 12;
+	clrscr();
+
+	// a = 15;
+	// PI = 3.15;
+
+	P("A\t: %d\n",a);
+	printf("PI\t: %.2f",PI);
+
+
+	HOLD();
+}
